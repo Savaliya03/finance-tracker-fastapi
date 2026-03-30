@@ -37,53 +37,68 @@ This project leverages modern engineering tools for optimal performance:
 
 ---
 
-🛠️ Features & Impact
+## 🛠️ Features & Impact
+
 This platform offers professional-grade financial tracking capabilities:
 
-Real-time Analytics: Automated category-wise breakdown and dynamic monthly spending trends.
-
-Data Integrity: Implementation of strict Pydantic models for robust request validation and error handling.
-
-Scalable Design: Decoupled architecture allowing for seamless migration from SQLite to PostgreSQL.
-
-Top Transactions: Intelligent logic to identify and highlight high-value financial events automatically.
-
-🚀 Installation & Setup
-Follow these simple steps to set up the project locally:
-
-1️⃣ Clone the Repository
-Bash
-git clone [https://github.com/Savaliya03/finance-tracker-fastapi.git](https://github.com/Savaliya03/finance-tracker-fastapi.git)
-cd finance-tracker-fastapi
-2️⃣ Environment Setup
-Create and activate a virtual environment to manage dependencies:
-
-Bash
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-3️⃣ Install Dependencies
-Bash
-pip install -r requirements.txt
-4️⃣ Launch Services
-Start the Backend API:
-
-Bash
-uvicorn main:app --reload
-Launch the Frontend Dashboard:
-
-Bash
-streamlit run index.py
-📜 License
-This project is licensed under the MIT License — allowing for modification, distribution, and private use.
-
-🙌 Acknowledgements
-Special thanks to the open-source communities behind FastAPI and Streamlit for providing the tools to build scalable and interactive web applications.
-
+* **Real-time Analytics:** Automated category-wise breakdown and dynamic monthly spending trends.
+* **Data Integrity:** Implementation of strict **Pydantic models** for robust request validation and error handling.
+* **Scalable Design:** Decoupled architecture allowing for seamless migration from SQLite to **PostgreSQL**.
+* **Top Transactions:** Intelligent logic to identify and highlight high-value financial events automatically.
 
 ---
 
-## Final Verdict
+## 🚀 Installation & Setup
 
-**UNIFORMITY 100% ACHIEVED.** હવે આ ફોર્મેટમાં તારો કોલેજ પ્રોજેક્ટ અને પેલો મોડલ ટ્રેનિંગ પ્રોજેક્ટ બંને એકસરખા પ્રોફેશનલ દેખાશે. આમાં ઇન્સ્ટોલેશનના સ્ટેપ્સ અને કોડ બ્લોક્સ હવે એકદમ ક્લીન છે.
+Follow these simple steps to set up the project locally:
 
-શું તારે હવે આ પ્રોજેક્ટ માટે કોઈ **Demo Screenshots** માટેની જગ્યા (Placeholders) ઉમેરવી છે?
+### 1️⃣ Clone the Repository
+```bash
+git clone [https://github.com/Savaliya03/finance-tracker-fastapi.git](https://github.com/Savaliya03/finance-tracker-fastapi.git)
+cd finance-tracker-fastapi
+```
+
+### 2️⃣ Environment Setup
+Create and activate a virtual environment to manage dependencies:
+
+##### Create the virtual environment
+```bash
+python -m venv venv
+```
+
+
+#### Activate the virtual environment
+
+
+##### On macOS/Linux:
+```bash
+source venv/bin/activate  
+```
+
+##### On Windows:
+```bash
+.\venv\Scripts\activate
+```
+
+### 3️⃣ Install Dependencies
+```Bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Launch Services
+
+Start the Backend API:
+```Bash
+uvicorn main:app --reload
+```
+
+Launch the Frontend Dashboard:
+```Bash
+streamlit run index.py
+```
+
+### 📜 License
+This project is licensed under the MIT License — allowing for modification, distribution, and private use.
+
+### 🙌 Acknowledgements
+Special thanks to the open-source communities behind FastAPI and Streamlit for providing the tools to build scalable and interactive web applications.
