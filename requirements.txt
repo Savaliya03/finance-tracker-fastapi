@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sqlalchemyz
+pydantic
+passlib
+python-jose
+python-multipart
+streamlit
+requests
+pandas
+
